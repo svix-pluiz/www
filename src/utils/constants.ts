@@ -166,16 +166,16 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     link: "https://www.anthropic.com/",
   },
   {
+    img: require("../app/img/logos/google-brand.svg"),
+    imgAspectRatio: { width: 272, height: 92 },
+    company: "Google Gemini",
+    link: "https://gemini.google.com/app",
+  },
+  {
     img: require("../app/img/logos/brex-brand.svg"),
     imgAspectRatio: { width: 294, height: 64 },
     company: "Brex",
     link: "https://www.brex.com/",
-  },
-  {
-    img: require("../app/img/logos/benchling-brand.svg"),
-    imgAspectRatio: { width: 600, height: 127 },
-    company: "Benchling",
-    link: "https://www.benchling.com/",
   },
   {
     img: require("../app/img/logos/kong-logo.svg"),
@@ -188,6 +188,12 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     imgAspectRatio: { width: 1750, height: 545 },
     company: "Svix",
     link: "https://www.svix.com/",
+  },
+  {
+    img: require("../app/img/logos/benchling-brand.svg"),
+    imgAspectRatio: { width: 600, height: 127 },
+    company: "Benchling",
+    link: "https://www.benchling.com/",
   },
   {
     img: require("../app/img/logos/drata-brand.svg"),
@@ -232,12 +238,6 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     link: "https://www.bizzabo.com/",
   },
   {
-    img: require("../app/img/logos/clerk-brand.svg"),
-    imgAspectRatio: { width: 602, height: 172 },
-    company: "Clerk.dev",
-    link: "https://clerk.dev/",
-  },
-  {
     img: require("../app/img/logos/bonfire-brand.svg"),
     imgAspectRatio: { width: 491, height: 97 },
     company: "Bonfire",
@@ -256,16 +256,16 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     link: "https://www.yoco.com/",
   },
   {
+    img: require("../app/img/logos/clerk-brand.svg"),
+    imgAspectRatio: { width: 602, height: 172 },
+    company: "Clerk.dev",
+    link: "https://clerk.dev/",
+  },
+  {
     img: require("../app/img/logos/nash-brand.svg"),
     imgAspectRatio: { width: 147, height: 30 },
     company: "Nash",
     link: "https://www.usenash.com/",
-  },
-  {
-    img: require("../app/img/logos/spotai-brand.svg"),
-    imgAspectRatio: { width: 107, height: 26 },
-    company: "Spot AI",
-    link: "https://www.spot.ai/",
   },
   {
     img: require("../app/img/logos/scalapay-brand.svg"),
@@ -292,10 +292,10 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     link: "https://www.act-on.com/",
   },
   {
-    img: require("../app/img/logos/wetravel-brand.webp"),
-    imgAspectRatio: { width: 716, height: 230 },
-    company: "WeTravel",
-    link: "https://www.wetravel.com/",
+    img: require("../app/img/logos/spotai-brand.svg"),
+    imgAspectRatio: { width: 107, height: 26 },
+    company: "Spot AI",
+    link: "https://www.spot.ai/",
   },
   {
     img: require("../app/img/logos/cardless-brand.svg"),
