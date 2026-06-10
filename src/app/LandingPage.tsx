@@ -24,6 +24,7 @@ import {
   RiServiceFill,
   RiPencilRuler2Fill,
   RiBook2Fill,
+  RiRobot2Fill,
 } from "react-icons/ri";
 import { ReferenceTile } from "@/components/landing/ReferenceTile";
 import { ActionCard } from "@/components/landing/ActionCard";
@@ -250,7 +251,7 @@ export default function LandingPage() {
               <Heading fontSize="xl" fontWeight="bold">
                 Webhook tools
               </Heading>
-              <Grid templateColumns="1fr 1fr" gap={8}>
+              <Grid templateColumns="1fr 1fr 1fr" gap={8}>
                 <GridItem colSpan={{ base: 2, md: 1 }}>
                   <ActionCard
                     backgroundColor="black.300"
@@ -270,6 +271,16 @@ export default function LandingPage() {
                     ctaUrl={C.tools.simulate}
                     ctaText="Try the tool"
                     h="100%"
+                  />
+                </GridItem>
+                <GridItem colSpan={{ base: 2, md: 1 }}>
+                  <ActionCard
+                    backgroundColor="black.300"
+                    title="AI Skill"
+                    description="The receiving-webhooks skill teaches AI agents to verify webhooks the right way."
+                    icon={RiRobot2Fill}
+                    ctaUrl={"https://github.com/svix/ai/blob/main/skills/receiving-webhooks/"}
+                    ctaText="View the skill"
                   />
                 </GridItem>
               </Grid>
